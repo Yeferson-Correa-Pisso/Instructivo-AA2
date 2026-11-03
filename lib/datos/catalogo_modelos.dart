@@ -27,7 +27,7 @@ List<ModeloAnalisis> crearCatalogo() {
     }),
     _crearModelo('Modelo de clases', {
       'CL-01': 'Las clases corresponden a entidades del dominio',
-      'CL-02': 'Cada atributo tiene tipo de dato',
+      'CL-02': 'Cada atributo tiene tipo de datos',
       'CL-03': 'Los métodos responden a los requisitos',
       'CL-04': 'Las relaciones tienen multiplicidad',
       'CL-05': 'Los nombres de clase están en singular',
@@ -44,7 +44,7 @@ List<ModeloAnalisis> crearCatalogo() {
       'AC-02': 'Las actividades inician con verbo de acción',
       'AC-03': 'Las decisiones tienen condiciones de guarda',
       'AC-04': 'Los carriles indican el responsable',
-      'AC-05': 'El flujo corresponde al proceso requerido',
+      'AC-05': 'El flujo corresponde al proceso requerido/sugerido',
     }),
   ];
 }
