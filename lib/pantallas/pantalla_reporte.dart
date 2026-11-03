@@ -4,7 +4,7 @@ import '../datos/repositorio_verificaciones.dart';
 import '../modelos/verificacion.dart';
 import 'estilo_estado.dart';
 
-/// Reporte del estado de los modelos, calculado desde el arreglo.
+
 class PantallaReporte extends StatelessWidget {
   const PantallaReporte({super.key, required this.repositorio});
 
@@ -75,7 +75,7 @@ class PantallaReporte extends StatelessWidget {
   }
 }
 
-/// Tarjeta con el resultado de una verificación.
+
 class _DetalleModelo extends StatelessWidget {
   const _DetalleModelo(this.verificacion);
 

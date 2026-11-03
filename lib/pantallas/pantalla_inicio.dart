@@ -6,7 +6,7 @@ import 'estilo_estado.dart';
 import 'pantalla_formulario.dart';
 import 'pantalla_reporte.dart';
 
-/// Pantalla principal: lista las verificaciones del arreglo.
+
 class PantallaInicio extends StatefulWidget {
   const PantallaInicio({super.key, required this.repositorio});
 
@@ -18,7 +18,7 @@ class PantallaInicio extends StatefulWidget {
 
 class _PantallaInicioState extends State<PantallaInicio> {
   Future<void> _abrirFormulario() async {
-    // Espera el resultado que devuelve Navigator.pop del formulario.
+
     final nueva = await Navigator.push<Verificacion>(
       context,
       MaterialPageRoute(builder: (_) => const PantallaFormulario()),
@@ -84,7 +84,7 @@ class _PantallaInicioState extends State<PantallaInicio> {
                   ),
                 ),
                 ElevatedButton.icon(
-                  // Con null el botón queda deshabilitado.
+
                   onPressed:
                       verificaciones.isEmpty ? null : _abrirReporte,
                   icon: const Icon(Icons.assessment),

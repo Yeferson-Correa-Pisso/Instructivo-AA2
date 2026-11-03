@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../modelos/verificacion.dart';
 
-/// Color que representa cada estado en la interfaz.
+
 Color colorEstado(EstadoVerificacion estado) {
   switch (estado) {
     case EstadoVerificacion.aprobado:
@@ -14,7 +14,7 @@ Color colorEstado(EstadoVerificacion estado) {
   }
 }
 
-/// Ícono que representa cada estado en la interfaz.
+
 IconData iconoEstado(EstadoVerificacion estado) {
   switch (estado) {
     case EstadoVerificacion.aprobado:

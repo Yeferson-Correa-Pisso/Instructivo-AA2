@@ -1,6 +1,6 @@
 import 'criterio.dart';
 
-///Un modelo de analisis (diagrama UML) con su lista de chequeo.
+
 class ModeloAnalisis {
   ModeloAnalisis({required this.nombre, required this.criterios});
 

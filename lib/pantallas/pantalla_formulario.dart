@@ -4,8 +4,8 @@ import '../datos/catalogo_modelos.dart';
 import '../modelos/modelo_analisis.dart';
 import '../modelos/verificacion.dart';
 
-/// Formulario para diligenciar la lista de chequeo de un modelo.
-/// Al guardar, devuelve la Verificacion a la pantalla anterior.
+
+
 class PantallaFormulario extends StatefulWidget {
   const PantallaFormulario({super.key});
 
@@ -29,7 +29,7 @@ class _PantallaFormularioState extends State<PantallaFormulario> {
   }
 
   void _guardar() {
-    // validate() ejecuta el validador de cada campo del Form.
+
     if (!_formKey.currentState!.validate()) return;
 
     final modelo = _modeloSeleccionado!;
@@ -40,7 +40,7 @@ class _PantallaFormularioState extends State<PantallaFormulario> {
       fecha: DateTime.now(),
       criterios: modelo.criterios.map((c) => c.copiar()).toList(),
     );
-    // Cierra el formulario y entrega el resultado.
+
     Navigator.pop(context, verificacion);
   }
 

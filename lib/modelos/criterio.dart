@@ -1,4 +1,4 @@
-/// Un criterio de la lista de chequeo de un modelo de analisis.
+
 class Criterio {
   Criterio({
     required this.codigo,
@@ -10,7 +10,7 @@ class Criterio {
   final String descripcion;
   bool cumple;
 
-  ///Crea una copia independiente para guardarla en el arreglo.
+
   Criterio copiar() {
     return Criterio(
       codigo: codigo,

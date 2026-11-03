@@ -1,7 +1,7 @@
 import '../modelos/criterio.dart';
 import '../modelos/modelo_analisis.dart';
 
-/// Construye un modelo a partir de un mapa código → descripción.
+
 ModeloAnalisis _crearModelo(
   String nombre,
   Map<String, String> criterios,
@@ -14,8 +14,8 @@ ModeloAnalisis _crearModelo(
   );
 }
 
-/// Devuelve los cuatro modelos de análisis con su lista de chequeo.
-/// Cada llamada crea objetos nuevos, con las casillas sin marcar.
+
+
 List<ModeloAnalisis> crearCatalogo() {
   return [
     _crearModelo('Modelo de casos de uso', {
